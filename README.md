@@ -53,7 +53,7 @@ agemodel.add(Dense(1, activation='relu'))
 ```
 Wir haben bewusst keine beliebten Modelle wie ResNet, DenseNet oder VGG verwendet, da sie viele Parameter enthalten und daher eine lange Trainingszeit benötigen, was auf Plattformen mit begrenzten Ressourcen, wie Kaggle, nicht praktikabel ist.
 <p align="center">
-  <img src="./model_loss_age..png" />
+  <img src="./model_loss_age.png" />
 </p>
 #### Herausforderungen und Analyse des Modells
 Obwohl unser Modell in gewissem Maße die Vorhersageziele erreicht hat, erkennen wir durch Beobachtung der Loss-Veränderung, dass es noch erheblichen Verbesserungsbedarf gibt und es noch weit von der Optimierung entfernt ist. Im Vergleich zu anderen fortschrittlichen Modellen, wie DeepFace, gibt es immer noch eine erhebliche Lücke in Bezug auf Vorhersagegenauigkeit und Stabilität unseres Modells.
