@@ -1,0 +1,55 @@
+{
+  "name": "FaceAttributesPredictor",
+  "homepage": "https://github.com/MiaoIMA/FaceAttributesPredictor.git",
+  "description": "Kennzeichen unkenntlich machen ",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview",
+    "predeploy": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiaoIMA/FaceAttributesPredictor.git"
+  },
+  "keywords": [
+    "object detection",
+    "CNN",
+    "javascript",
+    "react",
+    "tensorflow.js"
+  ],
+  "author": "MiaoIMA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiaoIMA/FaceAttributesPredictor.git"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.1.0",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "gh-pages": "^6.0.0",
+    "vite": "^3.2.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
